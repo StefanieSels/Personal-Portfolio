@@ -1,0 +1,29 @@
+
+/* Projects */
+.airbnb-news-clone {
+  background-image: url(https://remarkable-mooncake-4cfc0b.netlify.app);
+  background-size: cover;
+  background-position: center;
+}
+
+.newsweek-clone {
+  background-image: url(https://benevolent-daffodil-55e4cf.netlify.app);
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-clone {
+  background-image: url(https://cozy-kangaroo-2907f2.netlify.app);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* About */
+
+.about-img {
+  background-image: url(./images/portfolio-pic.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
