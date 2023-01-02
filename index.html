@@ -29,32 +29,37 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Projects</a>
+              <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about-me">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact-me">Contact</a>
             </li>
         </div>
       </div>
     </nav>
 
     <!--Hero 1-->
-    <div class="container mx-auto">
-      <h1>Hi. I'm Stefanie.</h1>
-      <h2>A Developer.</h2>
-      <p>Current Full-Stack Developer student at Altcademy.</p>
+    <div class="card container mx-auto my-4 text-bg-dark">
+      <img src="..." class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Hi. I'm Stefanie.<br>A Developer.</h5>
+        <p class="card-text">Current Full-Stack Developer student at Altcademy.</p>
+      </div>
     </div>
+
     <button type="button" class="btn btn-light border d-block mx-auto">Projects</button>
-    <div class="vr d-block mx-auto"></div>
+    <div class="d-flex" style="height: 80px;">
+      <div class="vr mx-auto"></div>
+    </div>
 
     <!--Projects-->
-    <div class="container bg-dark-subtle mx-auto">
+    <div id="portfolio" class="container bg-dark-subtle mx-auto rounded">
       <div class="row">
-        <div class="col-12 col-md-6 project">
-          <div class="img-card rounded-3 border border-light airbnb-news-clone"></div>
+        <div class="col-12 col-md-6 p-3">
+          <a href="https://remarkable-mooncake-4cfc0b.netlify.app"><img src="./images/airbnb-news.jpg" class="img-fluid" alt="airbnb logo"/></a>
           <div class="text-box">
             <p>Airbnb News Clone</p>
             <div class="languages">
@@ -64,8 +69,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 project">
-          <div class="img-card rounded-3 border border-light newsweek-clone"></div>
+        <div class="col-12 col-md-6 p-3">
+          <a href="https://benevolent-daffodil-55e4cf.netlify.app"><img src="./images/newsweek-logo.jpg" class="img-fluid" alt="newsweek logo"/></a>
           <div class="text-box">
             <p>Newsweek Clone</p>
             <div class="languages">
@@ -77,8 +82,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 project">
-          <div class="img-card rounded-3 border border-light apple-clone"></div>
+        <div class="col-12 col-md-6 p-3">
+          <a href="https://cozy-kangaroo-2907f2.netlify.app"><img src="./images/apple-logo.jpg" class="img-fluid" alt="apple logo"/></a>
           <div class="text-box">
             <p>Apple Clone</p>
             <div class="languages">
@@ -91,32 +96,42 @@
     </div>
 
     <!--About-->
-    <div class="vr d-block mx-auto"></div>
+    <div class="d-flex" style="height: 80px;">
+      <div class="vr mx-auto"></div>
+    </div>
 
-    <div class="container bg-dark-subtle">
+    <div id="about-me" class="container bg-black text-white rounded">
       <div class="row">
-        <div class="col-12 col-sm-4 about">
-          <div class="img-card rounded-3 border border-light about-img"></div>
+        <div class="col-12 col-sm-4">
+          <img src="./images/portfolio-pic.jpg" class="img-fluid rounded p-3" alt="Black and white photo of individul on top of mountain">
         </div>
         <div class="col-12 col-sm-8">
-          <h3>About</h3>
-          <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper eu. Proin aliquam facilisis ante sed etiam interdum congue. Integer mollis, nisl amet convallis, porttitor sed magna ullamcorper, amet egestas mauris nisi nec lacinia. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam consequat. Sed dolor adipiscing.</p>
+          <h3 class="pt-3 px-3">About</h3>
+          <p class="p-3">Aenean ornare velit lacus, ac varius enim lorem ullamcorper eu. Proin aliquam facilisis ante sed etiam interdum congue. Integer mollis, nisl amet convallis, porttitor sed magna ullamcorper, amet egestas mauris nisi nec lacinia. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam consequat. Sed dolor adipiscing.</p>
         </div>
       </div>
     </div>
 
     <!--Contact-->
-    <div class="vr d-block mx-auto"></div>
+    <div class="d-flex" style="height: 80px;">
+      <div class="vr mx-auto"></div>
+    </div>
+
     <button type="button" class="btn btn-light border d-block mx-auto">Contact</button>
 
-    <div class="container mx-auto">
+    <div id="contact-me" class="container mx-auto">
       <h4>Contact me at:</h4>
       <div>
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/stefanie-sels/"><i class="fa-brands fa-linkedin"></i></a>
         <a href="https://github.com/StefanieSels"><i class="fa-brands fa-square-github"></i></a>
       </div>
+      <div>
+        <p>Copyright ©2023 Stefanie P. Sels. All rights reserved.</p>
+      </div>
     </div>
+
+    
 
 
     <!--Bootstrap 5-->
