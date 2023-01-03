@@ -3,20 +3,21 @@ body {
   background-color: black;
 }
 
+.btn:hover {
+  background-color: white;
+}
+
 .vertical-line {
   height: 100px;
   color: white;
 }
 
+/* Hero Section */
 .hero {
   height: 350px;
 }
 
-.btn:hover {
-  background-color: white;
-}
-
-
+/* Contact Section */
 .social-icons {
   color: black;
   margin-right: 20px;
