@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stefanie's Portfolio</title>
 
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/090291987f.js" crossorigin="anonymous"></script>
 
@@ -18,9 +23,9 @@
 
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg px-4 bg-light-subtle">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg px-4 bg-white">
+      <div class="container-fluid text-dark">
+        <a class="navbar-brand" href="#about">
           <i class="fa-solid fa-s"></i>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,27 +47,28 @@
     </nav>
 
     <!--Hero 1-->
-    <div class="card container mx-auto my-4 text-bg-dark">
-      <img src="..." class="card-img" alt="...">
-      <div class="card-img-overlay">
-        <h5 class="card-title">Hi. I'm Stefanie.<br>A Developer.</h5>
+    <div id="about" class="container-fluid hero pt-5 mt-5">
+      <div class="text-white text-center">
+        <h1 class="fw-bolder mb-3">Hi. I'm Stefanie.<br>A Developer.</h1>
         <p class="card-text">Current Full-Stack Developer student at Altcademy.</p>
       </div>
     </div>
 
-    <button type="button" class="btn btn-light border d-block mx-auto">Projects</button>
-    <div class="d-flex" style="height: 80px;">
+    <button type="button" class="btn btn-light btn-lg d-block mx-auto">Portfolio</button>
+
+    <div class="d-flex vertical-line">
       <div class="vr mx-auto"></div>
     </div>
 
     <!--Projects-->
-    <div id="portfolio" class="container bg-dark-subtle mx-auto rounded">
+    <div id="portfolio" class="container bg-white mx-auto rounded">
       <div class="row">
         <div class="col-12 col-md-6 p-3">
-          <a href="https://remarkable-mooncake-4cfc0b.netlify.app"><img src="./images/airbnb-news.jpg" class="img-fluid" alt="airbnb logo"/></a>
-          <div class="text-box">
-            <p>Airbnb News Clone</p>
-            <div class="languages">
+          <a href="https://gentle-torte-72584c.netlify.app"><img src="./images/airbnb-news.jpg" class="img-fluid" alt="airbnb logo"/></a>
+          <div class="text-box mt-3">
+            <p class="d-inline">Airbnb News Clone</p>
+            <div class="vr mx-1"></div>
+            <div class="languages d-inline">
               <i class="fa-brands fa-html5"></i>
               <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-bootstrap"></i>
@@ -71,9 +77,10 @@
         </div>
         <div class="col-12 col-md-6 p-3">
           <a href="https://benevolent-daffodil-55e4cf.netlify.app"><img src="./images/newsweek-logo.jpg" class="img-fluid" alt="newsweek logo"/></a>
-          <div class="text-box">
-            <p>Newsweek Clone</p>
-            <div class="languages">
+          <div class="text-box mt-3">
+            <p class="d-inline">Newsweek Clone</p>
+            <div class="vr mx-1"></div>
+            <div class="languages d-inline">
               <i class="fa-brands fa-html5"></i>
               <i class="fa-brands fa-css3-alt"></i>
               <i class="fa-brands fa-bootstrap"></i>
@@ -84,9 +91,10 @@
       <div class="row">
         <div class="col-12 col-md-6 p-3">
           <a href="https://cozy-kangaroo-2907f2.netlify.app"><img src="./images/apple-logo.jpg" class="img-fluid" alt="apple logo"/></a>
-          <div class="text-box">
-            <p>Apple Clone</p>
-            <div class="languages">
+          <div class="text-box mt-3">
+            <p class="d-inline">Apple Clone</p>
+            <div class="vr mx-1"></div>
+            <div class="languages d-inline">
               <i class="fa-brands fa-html5"></i>
               <i class="fa-brands fa-css3-alt"></i>
             </div>
@@ -96,49 +104,44 @@
     </div>
 
     <!--About-->
-    <div class="d-flex" style="height: 80px;">
+    <div class="d-flex vertical-line">
       <div class="vr mx-auto"></div>
     </div>
 
-    <div id="about-me" class="container bg-black text-white rounded">
+    <div id="about-me" class="container bg-black text-white rounded pb-5">
       <div class="row">
         <div class="col-12 col-sm-4">
           <img src="./images/portfolio-pic.jpg" class="img-fluid rounded p-3" alt="Black and white photo of individul on top of mountain">
         </div>
         <div class="col-12 col-sm-8">
-          <h3 class="pt-3 px-3">About</h3>
-          <p class="p-3">Aenean ornare velit lacus, ac varius enim lorem ullamcorper eu. Proin aliquam facilisis ante sed etiam interdum congue. Integer mollis, nisl amet convallis, porttitor sed magna ullamcorper, amet egestas mauris nisi nec lacinia. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam consequat. Sed dolor adipiscing.</p>
+          <h5 class="pt-3 px-3">Hey, I'm Stefanie Sels. I believe web design and development is diversive and insipring. I use my passion and skills to create user-friendly products and experiences. I also enjoy rock climbing, hiking, and coconut water.</h5>
         </div>
       </div>
     </div>
 
     <!--Contact-->
-    <div class="d-flex" style="height: 80px;">
+    
+    <button type="button" class="btn btn-light btn-lg d-block mx-auto">Contact</button>
+    <div class="d-flex vertical-line">
       <div class="vr mx-auto"></div>
     </div>
-
-    <button type="button" class="btn btn-light border d-block mx-auto">Contact</button>
-
-    <div id="contact-me" class="container mx-auto">
-      <h4>Contact me at:</h4>
-      <div>
-        <a href="#"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/stefanie-sels/"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="https://github.com/StefanieSels"><i class="fa-brands fa-square-github"></i></a>
-      </div>
-      <div>
-        <p>Copyright ©2023 Stefanie P. Sels. All rights reserved.</p>
+    <div id="contact-me" class="container bg-white mx-auto rounded py-4">
+      <h4 class="text-center">Lets work together.</h4>
+      <div class="text-center">
+        <a class="social-icons fa-2x" href="#"><i class="fa-solid fa-envelope"></i></a>
+        <a class="social-icons fa-2x" href="https://www.linkedin.com/in/stefanie-sels/"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="social-icons fa-2x" href="https://github.com/StefanieSels"><i class="fa-brands fa-square-github"></i></a>
       </div>
     </div>
-
-    
-
+  
 
     <!--Bootstrap 5-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 
   <footer>
-
+    <div class="container text-white py-4 text-center">
+      <p>Copyright ©2023 Stefanie Sels. All rights reserved.</p>
+    </div>
   </footer>
 </html>

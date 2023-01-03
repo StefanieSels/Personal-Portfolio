@@ -1,7 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
 
-/* Projects */
+.vertical-line {
+  height: 100px;
+  color: white;
+}
+
+.hero {
+  height: 350px;
+}
+
+.btn:hover {
+  background-color: white;
+}
 
 
-
-/* About */
-
+.social-icons {
+  color: black;
+  margin-right: 20px;
+}
